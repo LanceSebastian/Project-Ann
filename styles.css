@@ -3,8 +3,12 @@ footer {
     background-color: #C99B6C;
     position: fixed;
     width: 100%;
+    height: 10vh;
     bottom: 0;
+    border-color: #7E6550;
+    border-style: solid none none none;
 }
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -22,6 +26,8 @@ body {
         margin: 0;
         padding: 0;
         background-color: #C99B6C;
+        border-color: #7E6550;
+        border-style: none none solid none;
         overflow:hidden;
     }
 
