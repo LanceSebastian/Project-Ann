@@ -62,7 +62,6 @@ body {
     
     .button-class {
         background-color: #7E6550;
-        /* Green */
         border: none;
         color: white;
         padding: 10px 20px;
@@ -76,15 +75,15 @@ body {
         width: 25%;
     }
 
+    .container {
+        padding: 10px;
+        text-align: center;
+        }
+
     /* Mobile-specific styles for screens up to 600px */
     @media only screen and (max-width: 600px) {
     body {
     font-size: 14px;
-    }
-    
-    .container {
-    padding: 10px;
-    text-align: center;
     }
     
     .button {
