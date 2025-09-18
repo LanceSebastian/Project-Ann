@@ -20,10 +20,31 @@
             <p id="Miguel">
                 &#128528
             </p>
+            <button id="button" onclick="loveButton()">"I love you, Miguel"</button>
         </div>
     </body>
 
     <footer>
         <h1> Footer </h1>
     </footer>
+
+    <script>
+        let emotion = 0
+        function loveButton(){
+            
+            if (emotion == 0) {
+                document.getElementById("Miguel").innerHTML = "&#129392";
+                document.getElementById("button").innerText = `"I'm just joking! :D"`
+                emotion = 1
+            } else {
+                document.getElementById("Miguel").innerHTML = "&#128528";
+                document.getElementById("button").innerText = `"I love you, Miguel"`
+                emotion = 0
+            }
+            return
+        }
+        function justJokingButton(){
+
+        }
+    </script>
 </html>
